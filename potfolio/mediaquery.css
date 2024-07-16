@@ -1,0 +1,116 @@
+
+@media screen and (max-width:1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about__section__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #desktop__nav {
+        display: none;
+    }
+
+    #nav__hamburger {
+        display: flex;
+    }
+
+    #experience, .experience__details_container {
+        margin-top: 2rem;
+    }
+
+    #hero__profile, .section__text {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .about__section__container {
+        height: fit-content;
+
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic__container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about__containers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #contact, footer {
+        height: 40vh;
+    }
+
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about__containers, .contact__info__upper__container, .section__profile__btn {
+        flex-wrap: wrap;
+    }
+
+    .contact__info__container {
+        margin: 0;
+    }
+
+    .contact__info__container p, .nav__links li a{
+        font-size: 1rem;
+    }
+
+    .experience__subtitle {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic__container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    .section__text__title {
+        font-size: 2rem;
+    }
+
+    .text__container {
+        text-align: justify;
+    }
+}
